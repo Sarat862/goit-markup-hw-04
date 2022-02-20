@@ -139,6 +139,8 @@ img {
     margin-right: 50px;
 }
 .contact-link {
+    display: flex;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -157,15 +159,28 @@ img {
    color: var(--accent-color); 
 }
 
+.contact-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
 /* MAIN, ГОЛОВНА ЧАСТИНА СТОРІНКИ */
 
 /* Героїк */
+
 .hero-section {
-    background-color: var(--primary-background-color);
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/hero-img.jpg); 
+    
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-color: #C4C4C4;
 }
+
+
 .hero-title {
     width: 696px;
     margin: 0 auto;
