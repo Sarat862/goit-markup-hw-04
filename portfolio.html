@@ -29,12 +29,23 @@
                 </ul>
             </nav>
             <ul class="contact-list list">
-                <li class="contact-item"><a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <li class="contact-item">
+                    <a class="contact-link link" href="mailto:info@devstudio.com">
+                        <svg class="contact-icon" width="16" height="12">
+                            <use href="./image/icons.svg#icon-mail"></use>
+                        </svg>info@devstudio.com
+                    </a>
                 </li>
-                <li class="contact-item"><a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="contact-item">
+                    <a class="contact-link link" href="tel:+380961111111">
+                        <svg class="contact-icon" width="10" height="16">
+                            <use href="./image/icons.svg#icon-phone"></use>
+                        </svg>+38 096 111 11 11
+                    </a>
+                </li>
             </ul>
-        </div>
-    </header>
+            </div>
+            </header>
 
     <!--Головна частина сторінки-->
     <main>
@@ -81,7 +92,7 @@
                     </li>
                     <li class="project-list-item">
                         <a class="project-list-link link" href="">
-                            <img class="project-img" src="./image/Portfolio/img-project-3.jpg" alt="На фоне назвы изображение рыбы" width="370"height="294">
+                            <img class="project-img" src="./image/Portfolio/img-project-3.jpg" alt="На фоне назвы изображение рыбы" width="370" height="294">
                             <div class="project-box">
                                 <h2 class="project-title">Ресторан Seafood</h2>
                                 <p class="project-subtitle">Приложение</p>
@@ -148,21 +159,62 @@
     </main>
     
     <!--Підвал сторінки-->
+    
     <footer class="footer">
-        <div class="container">
-            <a class="logo-footer link" href="">
-                Web<span class="part-logo-invert">Studio</span>
-            </a>
-            <address class="address">
-                <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
-                <ul class="footer-contact list">
-                    <li class="footer-contact-item"><a class="footer-contact-link link"
-                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="footer-contact-item"><a class="footer-contact-link link" href="tel:+380961111111">+38 096 111 11
-                            11</a></li>
+        <div class="container footer-container">
+            <div class="footer-left-side">
+                <a class="logo-footer link" href="">
+                    Web<span class="part-logo-invert">Studio</span>
+                </a>
+                <address class="address">
+                    <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
+                    <ul class="footer-contact list">
+                        <li class="footer-contact-item"><a class="footer-contact-link link"
+                                href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="footer-contact-item"><a class="footer-contact-link link" href="tel:+380961111111">+38 096
+                                111 11
+                                11</a></li>
+                    </ul>
+                </address>
+            </div>
+    
+            <!-- Соціальні мережі -->
+    
+            <div class="footer-right-side">
+                <h3 class="footer-social-title">присоединяйтесь</h3>
+                <ul class="footer-social-list list">
+                    <li class="footer-social-item">
+                        <a class="footer-social-link link" href="">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./image/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a class="footer-social-link social-current link" href="">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./image/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a class="footer-social-link link" href="">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./image/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a class="footer-social-link link" href="">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./image/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
-</body>
-</html>
+    </body>
+    
+    </html>
